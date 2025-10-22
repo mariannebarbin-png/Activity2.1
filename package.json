@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://marianne.barbin.github.io/Activity2.1/",
   "devDependencies": {
     "vite": "^4.0.4"
   },
