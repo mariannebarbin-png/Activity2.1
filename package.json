@@ -11,6 +11,7 @@
   },
   "homepage": "https://marianne.barbin.github.io/Activity2.1/",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^4.0.4"
   },
   "dependencies": {
